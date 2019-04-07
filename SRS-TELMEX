@@ -192,8 +192,8 @@ NumberTracing information
 6.1 Security
 The system avoids access to unauthorized person by using one single user account and password account with privileges of edit. Only the superior can have access to the system if it needed with his user account and password account. Also, only the superior has privileges to add or delete accounts.
 Also, the system will shut down if more than 3 attempts to access has been reached.
-6.2 Maintainability
 
+6.2 Maintainability
 A technical support must be available to contact with in case of problems.
 JAVA Environment could need updates to correct software functionality.
 The software needs update information to find and correct errors.
