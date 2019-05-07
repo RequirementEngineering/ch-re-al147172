@@ -203,3 +203,27 @@ The software is meant to be build for the specifications stated above in the doc
 The considerations taken for the software design, assums and expect specific hardware and previous software to work with.
 Portability is not a goal for the software development but the specific cases needs to be analyzed.
 Some key factors to support portability is the OS (windows 10) and Java Environment updated.
+
+7.0 Appendixes
+
+Requirements elicitation interview
+
+The following interview expose the needs of the customer to stablish the principal features of the software system.
+The tools manager Emilio Barraza and supervisor answered the list of question below, here are the results of the interview.
+
+1.- Q: How many tools are you managing?
+A: More than 500 hundred different tools or material.
+2. Q: Do you need to add, edit and delete information about the availability?
+A: Yes, specially availability
+3. Q: Do you need any specification in terms of interface design (for example, any color or button style request)
+A: No, just an intuitive and simple interface.
+4.  Q: Would you prefer to search tools in the system by using an ID tool or name tool, or both?
+A: Both 
+5. Q: Do you need a log in or password to use the application to protect information?
+A: We can use the administration account, but it could be useful a second log in.
+6. Q: Do you have any other specific request?
+A: I prefer to delegate the major part of the decisions that you consider the system needs.
+We just need to manage the availability of the tools to ease our work using a simple interface with the minimum-security considerations.
+7.  Q: Would you like to store the information in a different place or device for security o any other reason?
+A: No, it is not necessary.
+
