@@ -21,7 +21,7 @@ of the cellar in real time. A database will be used to recollect the tools infor
 Definitions, acronyms, and abbreviations:
 Telmex: Teléfonos de México
 
-[Screenshot](TECHINCAL.png)
+[TECHINCAL.png]
 
 1.4 References
 
