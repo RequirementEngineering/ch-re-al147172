@@ -89,7 +89,9 @@ This chapter contains all the information about requirements specification in de
 The following section gives a description about each functionality of the software and the interaction of the actors with the system supported by use case diagrams
 
 3.2 Tool manager use cases
- 
+
+
+ TECHINCAL.png
  
 3.3 Use case: Add a new tool
 Description
