@@ -74,14 +74,14 @@ use of database to deploy information and be able to add, edit and remove data.
 
 2.2 Site adaptation requirements
 
-A database server should exist already in the company to implement the created tables.
+* A database server should exist already in the company to implement the created tables.
 
-A laptop or computer desktop in optimal conditions should be available for the software implementation.
+* A laptop or computer desktop in optimal conditions should be available for the software implementation.
 
-A laptop or computer desktop should have the minimum performance requirements (such as processor, RAM memory, etc.) to run a database
+* A laptop or computer desktop should have the minimum performance requirements (such as processor, RAM memory, etc.) to run a database
 server in a reasonable amount of time without any difficulties.
 
-Java environment should be installed on computer to run the software successfully.
+* Java environment should be installed on computer to run the software successfully.
 
  2.3 Product functions
  
@@ -98,6 +98,7 @@ The manager tool could search any tool by typing its identification number or to
 buttons.
 
 Some changes such as delete items can be undone to avoid accidental loss of memory.
+
 An auto-completed sentences will be implemented in order to ease the search.
 
 
@@ -111,6 +112,7 @@ screen.
 Also, it has the search bar to look for a specific tool using name product or ID tool.
 
 The interface has no priority for esthetic aspects including special colors, shapes or other graphical characteristics.
+
 All the features of the interface it remains in one single tab with small popping tabs in case of system notifications like confirm
 actions or warning.
 
@@ -315,23 +317,23 @@ account.
 
  6.0 Performance requirements
  
-(1) The system is created to allow two or more administrator account to manage the database at a time.
-(2) The system allows number and character data.
-(3) The database should have enough capacity to save all work tools data.
-(4) The operative system should support Java environment for software implementation.
+* The system is created to allow two or more administrator account to manage the database at a time.
+* The system allows number and character data.
+* The database should have enough capacity to save all work tools data.
+* The operative system should support Java environment for software implementation.
 
 Render aspects
 
-The results display of searching an item should not last more than 1 second.
-The log in function should not last more than 5 seconds.
-The database should have at least 1 TB of capacity. (for a wide margin)
-The database should have capacity for more than 500 hundred items information and other.
+* The results display of searching an item should not last more than 1 second.
+* The log in function should not last more than 5 seconds.
+* The database should have at least 1 TB of capacity. (for a wide margin)
+* The database should have capacity for more than 500 hundred items information and other.
 
 7.0 Logical database
 
-The logical structure information should be store in the Telmex cellar database server.
-System must be able to function 24/7, with constant frequency of use.
-A unique ID will be assigned automatically to each added tool to identify them.
+*The logical structure information should be store in the Telmex cellar database server.
+*System must be able to function 24/7, with constant frequency of use.
+*A unique ID will be assigned automatically to each added tool to identify them.
 
 [TABLE HERE]
 
@@ -381,11 +383,11 @@ The software is meant to be build for the specifications stated above in the doc
 
 The considerations taken for the software design, assums and expect specific hardware and previous software to work with, and the 
 devolpment considerate only the factors and circunstances of the specific case of the company.
+
 Portability is not a goal for the software development but the specific cases needs to be analyzed if its mean to use in a different
 enviroment.
 
 Some key factors to support portability is the OS (windows 10) and Java Environment updated.
-
 
 12.0 Appendixes
 
