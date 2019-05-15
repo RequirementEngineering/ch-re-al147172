@@ -21,17 +21,15 @@ of the cellar in real time. A database will be used to recollect the tools infor
 Definitions, acronyms, and abbreviations:
 Telmex: Teléfonos de México
 
-![TECHNICAL.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/TECHINCAL.png)
 
 
-
-1.4 References
+1.3 References
 
 Davis, A., & Overmeyer, S. (1993). Identifying and measuring quality in a software requirements specification. Baltimore: Proceedings First International Software Metrics Symposium.
 Dobing, B. (2006). "How UML is used". COMMUNICATIONS OF THE ACM.
 Mariscal, J. (2005). New trends in the Latin American telecommunications market: Telefonica & Telmex. ELSEVIER.
 
-1.5 Overview
+1.4 Overview
 The next content gives information of the functionality of the system, the specific requirements, such as functional and nonfunctional using high-level language to give place to a more technical terminology in the chapter below.
 The next chapter uses technical language and is meant to be used by the development team, including more detailed description about requirements.
 In general, describes the whole project and its characteristics using different languages in order to communicate with different readers, and different purpose too.
@@ -46,9 +44,11 @@ A connection must be made between the interface compound of graphic buttons and 
 The buttons displayed to operate the interface are:
 Edit, Remove, Add, Increase, Decrease, Search Bar, Go Back. In order to a proper software performance.
 There is also an autocompleted sentence to fill the field in order to ease the search and make more efficient the process.
+
 2.1 Product perspective 
 The product is expected to be a single and independent entity, not related with any other component or large system.
 The inventory software is a common application used in all large and small companies around the world in order to have control of their objects and items to avoid lost material and reduce costs of possible theft. It is considered a priority in the modern world, as well as the use of database to deploy information and be able to add, edit and remove data.
+
 2.2 Site adaptation requirements
 A database server should exist already in the company to implement the created tables.
 A laptop or computer desktop in optimal conditions should be available for the software implementation.
