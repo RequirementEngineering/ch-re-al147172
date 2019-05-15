@@ -5,6 +5,7 @@ A TELMEX plant at Ciudad Juarez lack of tools inventory, instead of using softwa
 and difficulties to control the management of every work tool that is being used due to traditional or obsolete methods as using paper.
 
 1.1 Purpose
+
 The purpose of this document is to give a detailed description of the features, requirements and what the system should do and the way
 it operates.
 The document is meant to be used by the stakeholders of the project for the development processes and other stages.
@@ -24,3 +25,6 @@ ask for more if it is needed. Also, supervisor of management tools department wi
 possible anomaly.
 
 1.3 Glossary
+
+[glossary.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/glossary.png)
+
