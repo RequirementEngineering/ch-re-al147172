@@ -104,6 +104,38 @@ item, and also to store new tools to the system.
 
 ![userchar.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/userchar.png)
 
+2.6 Constraints
+
+(1) Hardware
+
+ The hardware being use on the cellar is a single Dell desktop computer Windows 10 installed.
+ The computer has 4GB of RAM memory
+ Processor Intel i5 -5th generation
+
+(2) Policies
+
+The company’s policies do not allow other hardware rather than the available located on the cellar.
+
+2.7 Assumptions and dependecies
+    
+The inventory tool software assumes windows 10 as the operative system selected to work with.
+Names of all the work tools are expected to be known and access to them as well.
+A desktop or laptop supporting windows 10 is expected to be available for the software implementation.
+A person in charge of operating the software is imperative. (Tools manager).
+
+3.0 Specific requirements
+
+This chapter contains all the information about requirements specification in detailed, such as functional and nonfunctional
+requirements to help development team for the software design by using diagrams, and functions description of all the components.
+3.1 Functional requirements Specifications
+The following section gives a description about each functionality of the software and the interaction of the actors with the system
+supported by use case diagrams
+
+3.2 Tool manager use cases
+
+![MANAGER.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER.png)
+
+
 
 
 
