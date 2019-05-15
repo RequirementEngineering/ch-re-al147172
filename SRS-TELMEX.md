@@ -131,9 +131,37 @@ requirements to help development team for the software design by using diagrams,
 The following section gives a description about each functionality of the software and the interaction of the actors with the system
 supported by use case diagrams
 
-3.2 Tool manager use cases
+3.1 Tool manager use cases
 
 ![MANAGER.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER.png)
+
+3.2 Use case: Add a new tool
+
+Description
+
+The manager tools enters a new tool on the system.
+
+Step-By-Step Description
+
+The tool manager must log in to add new tools to database.
+1.	The Manager tools selects to Add a new tool.
+2.	The system asks for the tool name. 
+3.	A confirm selected option is deployed.
+4.	Changes are saved in the database.
+
+3.3 Use case: Select tool
+
+Description
+
+The manager select tool asked by the technical to register the order.
+
+Step-By-Step Description
+
+1. The manager double click on selected tool
+2. Automatically a window appears to type employee ID
+2. Click ok button to confirm the action
+3. Number of available tools decrease automatically
+4. Changes are saved in the database automatically.
 
 
 
