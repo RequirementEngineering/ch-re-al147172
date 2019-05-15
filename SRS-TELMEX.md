@@ -163,6 +163,177 @@ Step-By-Step Description
 3. Number of available tools decrease automatically
 4. Changes are saved in the database automatically.
 
+3.4 Use case: Remove tool 
+
+Description
+
+The manager tools removes tools from the system.
+
+Step-By-Step Description
+
+1.The Manager tools selects to Remove a tool.
+2.The system deploys a confirm screen.
+3. The system save changes.
+
+3.5 Use case: Edit a tool name or amount
+
+Description
+
+The manager tools edits name and quantity of selected items.
+
+Step-By-Step Description
+
+1.The Manager tools selects to Edit a tool.
+2.The system deploys a screen showing two different options, edit tool name, edit quantity (the last action also works by a single up 
+button (green arrow) to increase number or down button to decrease quantity (red arrow). 
+
+3.6 Use case: Search 
+
+Description
+
+The manager searches a specific tool from the system.
+
+Step-By-Step Description
+
+1.The Manager tools selects the bar to type the tool´s name or ID number.
+2.The system deploys match results.
+
+3.7 Use case: Log in
+
+Description
+
+The manager logs in into the system to be able to operate the system and make changes.
+
+Step-By-Step Description
+
+1.The Manager select log in button.
+2.The tool manager use his user name and password to access to the system.
+3. System interface is deployed.
+
+3.8 Supervisor use cases
+
+[SUPERVISOR.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/SUPERVISOR.png)
+
+3.9 Use case: Add a new tool
+
+Description
+
+The supervisor enters a new tool on the system.
+
+Step-By-Step Description
+
+5.	The supervisor tools selects to Add a new tool.
+6.	The system asks for the tool name. 
+7.	A confirm selected option is deployed.
+8.	Changes are saved in the database.
+
+4.0 Use case: Select tool
+
+Description
+
+Step-By-Step Description
+
+1. The supervisor double click on selected tool
+2. Click ok button on the tab which appears to confirm action.
+3. Number of available tools decrease automatically
+4. Changes are saved in the database.
+
+4.1 Use case: Remove tool 
+
+Description
+
+The supervisor tools removes tools from the system.
+
+Step-By-Step Description
+
+Use case: Remove a tool
+1.The supervisor tools selects to Remove a tool.
+2.The system deploys a confirm screen.
+3. The system save changes.
+
+4.2 Use case: Edit a tool name or amount
+
+Description
+
+The supervisor tools edits name and quantity of selected items.
+
+Step-By-Step Description
+
+1.The Supervisor selects to Edit a tool.
+2.The system deploys a screen showing two different options, edit tool name, edit quantity (the last action also works by a single up
+button (green arrow) to increase number or down button to decrease quantity (red arrow). 
+
+4.3 Use case: Provide ID
+
+Description
+
+The Technical provide employee ID to register the order by the manager tools.
+
+Step-By-Step Description
+
+1.The technical provides ID to ask for tools.
+2.Manager select the tool
+3.Manager type ID in the window which appears
+4. The system register the order
+
+5.0 Security
+
+In order to avoid access to unauthorized people to the system. It is recommended to use an account with privileges using a password.
+For the safety and integrity of information, when removal items are selected, a warning windows will deploy to confirm this action, to
+avoid accidental loss of memory.
+
+5.1 Recovery information
+
+A backup for the system is recommended too for loss information risk by using a USB and only the supervisor able to have it and use it
+in case of hardware or software damage.
+NOTE: A superior user account should be created in case of any difficulties with the tool manager account, in this case the supervisor
+account.
+
+ 6.0 Performance requirements
+ 
+(1) The system is created to allow two or more administrator account to manage the database at a time.
+(2) The system allows number and character data.
+(3) The database should have enough capacity to save all work tools data.
+(4) The operative system should support Java environment for software implementation.
+
+Render aspects
+
+The results display of searching an item should not last more than 1 second.
+The log in function should not last more than 5 seconds.
+The database should have at least 1 TB of capacity. (for a wide margin)
+The database should have capacity for more than 500 hundred items information and other.
+
+7.0 Logical database
+
+The logical structure information should be store in the Telmex cellar database server.
+System must be able to function 24/7, with constant frequency of use.
+A unique ID will be assigned automatically to each added tool to identify them.
+
+[TABLE HERE]
+
+8.0 Design constraints
+
+(1) Only one desktop computer is available
+
+(2) The hardware has 4 GB of memory RAM.
+
+(3) The computer lack of Java Environment.
+
+(4) Windows 10 is the OS installed on the computer.
+
+(5) The tool manager has minimum knowledge of informatic. (An intuitive interface is imperative in order to avoid capacitation costs).
+
+6. Software System Attributes
+
+Tool Data Entity
+
+[toolentity.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/toolentity.png)
+
+
+
+
+
+
 
 
 
