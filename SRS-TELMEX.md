@@ -21,7 +21,9 @@ of the cellar in real time. A database will be used to recollect the tools infor
 Definitions, acronyms, and abbreviations:
 Telmex: Teléfonos de México
 
-[GitHub Logo](TECHNICAL.png)
+![TECHNICAL.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/TECHINCAL.png)
+
+
 
 1.4 References
 
