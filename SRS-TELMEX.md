@@ -323,11 +323,85 @@ A unique ID will be assigned automatically to each added tool to identify them.
 
 (5) The tool manager has minimum knowledge of informatic. (An intuitive interface is imperative in order to avoid capacitation costs).
 
-6. Software System Attributes
+9.0 Software System Attributes
 
 Tool Data Entity
 
-![toolentity.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/toolentity.png)
+![tooldataentity.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/tooldataentity.png)
+
+Tool manager Data Entity
+![managerentity](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/managerentity.png)
+
+Supervisor Data Entity
+
+![supervisorentity](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/supervisorentity.png)
+
+Technical Data Entity
+
+![technicalentity](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/technicalentity.png)
+
+10.0 Maintainability
+
+A technical support must be available to contact with in case of problems.
+
+JAVA Environment could need updates to correct software functionality.
+
+The software needs update information to find and correct errors.
+
+In case of misuse which can cause loss of information technical support will be needed.
+
+11.0 Portability
+
+The software is meant to be build for the specifications stated above in the document.
+
+The considerations taken for the software design, assums and expect specific hardware and previous software to work with, and the 
+devolpment considerate only the factors and circunstances of the specific case of the company.
+Portability is not a goal for the software development but the specific cases needs to be analyzed if its mean to use in a different
+enviroment.
+
+Some key factors to support portability is the OS (windows 10) and Java Environment updated.
+
+
+12.0 Appendixes
+
+Requirements elicitation interview
+
+The following interview expose the needs of the customer to stablish the principal features of the software system.
+
+The tools manager Emilio Barraza and supervisor answered the list of question below, therefore the results of the interview.
+
+1.- Q: How many tools are you managing?
+
+A: More than 500 hundred different tools or material.
+
+2. Q: Do you need to add, edit and delete information about the tool state and availability?
+
+A: Yes, specially availability
+
+3. Q: Do you need any specification in terms of interface design (for example, any color or button style request)
+
+A: No, just an intuitive and simple interface.
+
+4.  Q: Would you prefer to search tools in the system by using an ID tool or name tool, or both?
+
+A: Both 
+
+5. Q: Do you need a log in or password to use the application to protect information?
+
+A: We can use the administration account, but it could be useful a second log in.
+
+6. Q: Do you have any other specific request?
+
+A: I prefer to delegate the major part of the decisions that you consider the system needs.
+
+We just need to manage the availability of the tools to ease our work using a simple interface with the minimum-security considerations.
+
+7.  Q: Would you like to store the information in a different place or device for security o any other reason?
+
+A: No, it is not necessary.
+ 
+
+
 
 
 
