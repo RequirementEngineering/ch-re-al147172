@@ -212,7 +212,7 @@ Step-By-Step Description
 
 3.8 Supervisor use cases
 
-[SUPERVISOR.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/SUPERVISOR.png)
+![SUPERVISOR.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/SUPERVISOR.png)
 
 3.9 Use case: Add a new tool
 
@@ -327,7 +327,7 @@ A unique ID will be assigned automatically to each added tool to identify them.
 
 Tool Data Entity
 
-[toolentity.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/toolentity.png)
+![toolentity.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/toolentity.png)
 
 
 
