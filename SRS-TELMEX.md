@@ -26,5 +26,5 @@ possible anomaly.
 
 1.3 Glossary
 
-![glossary.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/glossary.png)
+![glossary1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/glossary1.png)
 
