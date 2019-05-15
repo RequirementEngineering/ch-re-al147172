@@ -233,9 +233,9 @@ Description
 
 Step-By-Step Description
 
-1. The supervisor double click on selected tool
+1. The supervisor double click on selected tool.
 2. Click ok button on the tab which appears to confirm action.
-3. Number of available tools decrease automatically
+3. Number of available tools decrease automatically.
 4. Changes are saved in the database.
 
 4.1 Use case: Remove tool 
@@ -249,7 +249,7 @@ Step-By-Step Description
 Use case: Remove a tool
 1.The supervisor tools selects to Remove a tool.
 2.The system deploys a confirm screen.
-3. The system save changes.
+3.The system save changes.
 
 4.2 Use case: Edit a tool name or amount
 
@@ -272,9 +272,9 @@ The Technical provide employee ID to register the order by the manager tools.
 Step-By-Step Description
 
 1.The technical provides ID to ask for tools.
-2.Manager select the tool
-3.Manager type ID in the window which appears
-4. The system register the order
+2.Manager select the tool.
+3.Manager type ID in the window which appears.
+4. The system register the order.
 
 5.0 Security
 
