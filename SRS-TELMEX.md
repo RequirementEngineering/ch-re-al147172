@@ -102,7 +102,7 @@ item, and also to store new tools to the system.
 
 2.5 User characteristics
 
-![userchar.png] (https://github.com/RequirementEngineering/ch-re-al147172/blob/master/userchar.png)
+![userchar.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/userchar.png)
 
 
 
