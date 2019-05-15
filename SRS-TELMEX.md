@@ -64,6 +64,45 @@ The inventory software is a common application used in all large and small compa
 and items to have a record of loss and malfunction tools or material. It is considered a priority in the modern world, as well as the
 use of database to deploy information and be able to add, edit and remove data.
 
+2.2 Site adaptation requirements
+
+A database server should exist already in the company to implement the created tables.
+A laptop or computer desktop in optimal conditions should be available for the software implementation.
+A laptop or computer desktop should have the minimum performance requirements (such as processor, RAM memory, etc.) to run a database
+server in a reasonable amount of time without any difficulties.
+Java environment should be installed on computer to run the software successfully.
+
+ 2.3 Product functions
+ 
+The software would allow to add, edit and remove items from the cellar in real time to have control over the database.
+Also, the manager will have control increase or decrease the number of available tools by selecting two different colored arrows for up
+and down buttons. 
+Information about requested tools are saved on the system for future references and security, such as date of requested tool, ID of 
+employees, etc. 
+The connection with the database would allow to view the available tools on the cellar with additional information such as the existing
+unities, as well as the not available work tools in real time.
+The manager tool could search any tool by typing its identification number or tool name using an intuitive interface by selecting 
+buttons.
+Some changes such as delete items can be undone to avoid accidental loss of memory.
+An auto-completed sentences will be implemented in order to ease the search.
+
+
+2.4 Interfaces
+
+The interface is a simple box on JAVA graphic environment making use of buttons to ease the application use.
+The interface consists of a soft interface (not full of plenty action buttons or useless information), which contained a list of work
+tools containing its respective ID, and the manager can add new tool data, also edit or remove it by selecting the buttons displayed on
+screen.
+Also, it has the search bar to look for a specific tool using name product or ID tool.
+The interface has no priority for esthetic aspects including special colors, shapes or other graphical characteristics.
+All the features of the interface it remains in one single tab with small popping tabs in case of system notifications like confirm
+actions or warning.
+The interface is connected to a database to store tools information, such as register date information of the order, availability of the
+item, and also to store new tools to the system.
+
+2.5 User characteristics
+
+![userchar.png] (https://github.com/RequirementEngineering/ch-re-al147172/blob/master/userchar.png)
 
 
 
