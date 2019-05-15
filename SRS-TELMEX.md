@@ -21,8 +21,6 @@ of the cellar in real time. A database will be used to recollect the tools infor
 Definitions, acronyms, and abbreviations:
 Telmex: Teléfonos de México
 
-
-
 1.3 References
 
 Davis, A., & Overmeyer, S. (1993). Identifying and measuring quality in a software requirements specification. Baltimore: Proceedings First International Software Metrics Symposium.
@@ -33,7 +31,6 @@ Mariscal, J. (2005). New trends in the Latin American telecommunications market:
 The next content gives information of the functionality of the system, the specific requirements, such as functional and nonfunctional using high-level language to give place to a more technical terminology in the chapter below.
 The next chapter uses technical language and is meant to be used by the development team, including more detailed description about requirements.
 In general, describes the whole project and its characteristics using different languages in order to communicate with different readers, and different purpose too.
-
 
 
 2. Overall description
