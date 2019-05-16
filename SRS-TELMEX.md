@@ -45,7 +45,9 @@ solve any possible anomaly.
 
 Davis, A., & Overmeyer, S. (1993). Identifying and measuring quality in a software requirements specification. Baltimore: Proceedings
 First International Software Metrics Symposium.
+
 Dobing, B. (2006). "How UML is used". COMMUNICATIONS OF THE ACM.
+
 Mariscal, J. (2005). New trends in the Latin American telecommunications market: Telefonica & Telmex. ELSEVIER.
 
 1.5 Overview
@@ -57,7 +59,7 @@ The document also uses technical language and is meant to be used by the develop
 requirements.
 
 In general, describes the whole project and its characteristics using different languages in order to communicate with different 
-readers, and different purposes too.
+readers as we all any stakeholder or part of the deveploment team, and different purposes too.
 
 2.0 Overall description
 
@@ -65,15 +67,13 @@ The Management Tool should be an intuitive interface compound by interface, data
 The human aspects play the most important role, as actors, the technical request for tools that is needed and the manager tool operates
 and edit the list of tools, the name, the pieces available, the ID, etc.
 
-The technical request for a tool, and the manager search for the tool if its available in the storage, then save the changes, just as
-the actual amount of available unities in the cellar, and a small report is generated, which contained the employee number and the date
-request.
+The technical request for a tool and the manager search for the tool if its available in the storage,select the item  and
+automatically decrease the amount and then save the changes,and a small report is generated, which contained the employer number and the
+date request for control aspects.
 
 A connection must be made between the interface compound of graphic buttons and the database server where all the data will be stored.
 The buttons displayed to operate the interface are:
 Edit, Remove, Add, Increase, Decrease, Search Bar, Go Back. In order to a proper software performance.
-
-There is also an autocompleted sentence to fill the field in order to ease the search and make more efficient the process.
 
 2.1 Product perspective 
 
@@ -81,7 +81,7 @@ The product is expected to be a single and independent entity, not related with 
 
 The inventory software is a common application used in all large and small companies around the world to have control of their objects 
 and items to have a record of loss and malfunction tools or material. It is considered a priority in the modern world, as well as the
-use of database to deploy information and be able to add, edit and remove data.
+use of database to display information and be able to add, edit and remove data.
 
  A graphic representation of the processes involved in the department for a better understanding is explained in the diagram below.
 
@@ -114,25 +114,42 @@ buttons.
 
 Some changes such as delete items can be undone to avoid accidental loss of memory.
 
-An auto-completed sentences will be implemented in order to ease the search.
-
 
 2.4 Interfaces
 
-The interface is a simple box on JAVA graphic environment making use of buttons to ease the application use.
-The interface consists of a soft interface (not full of plenty action buttons or useless information), which contained a list of work
+The interface is a simple screen created on JAVA graphic environment making use of buttons to ease the application use.
+
+The interface is compound by a soft interface (not full of plenty action buttons or useless information), which contained a list of work
 tools containing its respective ID, and the manager can add new tool data, also edit or remove it by selecting the buttons displayed on
 screen.
 
 Also, it has the search bar to look for a specific tool using name product or ID tool.
 
-The interface has no priority for esthetic aspects including special colors, shapes or other graphical characteristics.
+The interface has no priority for esthetic aspects including special colors, shapes or other graphical aspect. The style it could be 
+considerate minimalist.
 
-All the features of the interface it remains in one single tab with small popping tabs in case of system notifications like confirm
-actions or warning.
+All the main features of the interface  remains in one single screen with smalls secundary windows that appears in case of system
+notifications like confirm actions or warning.
 
 The interface is connected to a database to store tools information, such as register date information of the order, availability of the
-item, and also to store new tools to the system.
+item, and also to store new tools to the system so any change will impact the database in real time.
+
+The screen is a GUI compound of buttons to operate  the tools information, a list with columns containing tools information is displayed
+on the screen and enables scrolling to see the full list.
+
+The graphic buttons displayed on the screen are Add,Edit,remove and Save. When the user select a requested tool the manager double click 
+on it and a small second screen appears containing buttons to  confirm or denied action.
+
+The first screen begins with a log in feature in order to access to the software application followed by the main screen that contains
+the tool list, buttons actions, and more.
+
+Inside functional requirements is stated with detailed the use cases of all the interactions of the user with the interface and the
+whole system.
+
+Simulations has to been done with a "prototype" of the GUI using and image model which represent the buttons and in general the
+structure of the interface.
+In summary the results of apply this model to common people with no  previous technical of software knowledge this software application
+we need to assume is a very intuitive interface and no capacitation will be need it to make use of it.
 
 2.5 User characteristics
 
@@ -189,6 +206,17 @@ The tool manager must log in to add new tools to database.
 2.	The system asks for the tool name. 
 3.	A confirm selected option is deployed.
 4.	Changes are saved in the database.
+
+3.6 Use case: History
+
+Description
+
+The manager views histroy of requested tool to check date and other tools.
+
+Step-By-Step Description
+
+1.The Manager tools selects the history button.
+2.The system display the history of the requestes tools.
 
 3.3 Use case: Select tool
 
@@ -268,6 +296,17 @@ Step-By-Step Description
 7.	A confirm selected option is deployed.
 8.	Changes are saved in the database.
 
+3.6 Use case: History
+
+Description
+
+The supervisor views histroy of requested tool to check date and other tools.
+
+Step-By-Step Description
+
+1.The Manager tools selects the history button.
+2.The system display the history of the requestes tools.
+
 4.0 Use case: Select tool
 
 Description
@@ -319,14 +358,29 @@ Step-By-Step Description
 
 5.0 Security
 
-In order to avoid access to unauthorized people to the system. It is recommended to use an account with privileges using a password.
-For the safety and integrity of information, when removal items are selected, a warning windows will deploy to confirm this action, to
-avoid accidental loss of memory.
+In order to avoid access to unauthorized people to the system. It is recommended to use an account with privileges using a password for
+the machine and not only trust in the software application log in.
+
+A sotftware application log in must be incorporated for major security using a dedicated account for itself.
+
+Security features
+
+(1) The system will be locked down for 10 minutes if more than 3 attempts to access has been reached.
+
+(2) if after the countdown another failed attempt is made, the account will be blocked permanently until the supervisor unblock it with
+his account.
+
+(3) For the safety and integrity of information, when removal items or selected,editing or adding, a warning windows will display to 
+confirm this action, to avoid accidental loss of memory.
+
 
 5.1 Recovery information
 
 A backup for the system is recommended too for loss information risk by using a USB and only the supervisor able to have it and use it
 in case of hardware or software damage.
+
+Another feautre to avoid accidental loss of memory is to undone actions using command ctrl+Z
+
 NOTE: A superior user account should be created in case of any difficulties with the tool manager account, in this case the supervisor
 account.
 
