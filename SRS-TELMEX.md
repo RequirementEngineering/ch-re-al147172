@@ -83,6 +83,13 @@ A connection must be made between the interface compound of graphic buttons and 
 The buttons displayed to operate the interface are:
 Edit, Remove, Add, Increase, Decrease, Search Bar, Go Back. In order to a proper software performance.
 
+For a better general understanding of the processes and the sequences check the businses process diagram below.
+
+Business Process Diagram
+
+![BPMNdiagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/BPMNdiagram.png)
+
+
 2.1 Product perspective 
 
 The product is expected to be a single and independent entity, not related with any other component or large system.
