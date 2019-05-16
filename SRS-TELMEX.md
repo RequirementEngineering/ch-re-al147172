@@ -279,8 +279,8 @@ The manager searches a specific tool from the system.
 
 Step-By-Step Description
 
-1.The Manager tools selects the bar to type the tool´s name or ID number.
-2.The system deploys match results.
+1. The Manager tools selects the bar to type the tool´s name or ID number.
+2. The system deploys match results.
 
 3.2.7 Use case: Log in
 
@@ -290,8 +290,8 @@ The manager logs in into the system to be able to operate the system and make ch
 
 Step-By-Step Description
 
-1.The Manager select log in button.
-2.The tool manager use his user name and password to access to the system.
+1. The Manager select log in button.
+2. The tool manager use his user name and password to access to the system.
 3. System interface is deployed.
 
 3.2.8 Supervisor use cases
@@ -319,8 +319,8 @@ The supervisor views histroy of requested tool to check date and other tools.
 
 Step-By-Step Description
 
-1.The Manager tools selects the history button.
-2.The system display the history of the requestes tools.
+1. The Manager tools selects the history button.
+2. The system display the history of the requestes tools.
 
 3.3.1 Use case: Select tool
 
@@ -342,6 +342,7 @@ The supervisor tools removes tools from the system.
 Step-By-Step Description
 
 Use case: Remove a tool
+
 1.The supervisor tools selects to Remove a tool.
 2.The system deploys a confirm screen.
 3.The system save changes.
