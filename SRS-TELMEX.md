@@ -335,7 +335,7 @@ Render aspects
 *System must be able to function 24/7, with constant frequency of use.
 *A unique ID will be assigned automatically to each added tool to identify them.
 
-[TABLE HERE]
+![classdiagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/classdiagram.png)
 
 8.0 Design constraints
 
