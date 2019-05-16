@@ -1,3 +1,14 @@
+                                Universidad autónoma de ciudad Juárez
+                                
+                         Departamento de ingeniería eléctrica y computación
+                         
+              ![uacjlogo.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png)
+
+
+
+
+
+
 1.0 Introduction
 
 Telmex (Telefonos de Mexico) it is a large company in the business of communications in Mexico.
