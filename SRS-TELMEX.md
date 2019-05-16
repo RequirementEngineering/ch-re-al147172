@@ -6,13 +6,13 @@
                         
   ![uacjlogo.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png)
 
-                                                                                                               Work Tools Management
+                                                                                                     Work Tools Management
                                                                                                  
-                                                                                                 Software requirements Specification
+                                                                                       Software requirements Specification
 
-                                                                                                                        Raul Lucero
+                                                                                                              Raul Lucero
                                                                                                                         
-                                                                                                                        May 16th 2019
+                                                                                                             May 16th 2019
 
 
 1.0 Introduction
