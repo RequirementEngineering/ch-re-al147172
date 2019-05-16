@@ -4,7 +4,9 @@
                          
                               
                         
-     ![uacjlogo.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png)
+   <p align="center">
+  <img width="600" height="200" src="https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png">
+</p>
 
                                                                                        Work Tools Management
                                                                                                  
