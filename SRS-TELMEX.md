@@ -231,6 +231,7 @@ The manager views histroy of requested tool to check date and other tools.
 Step-By-Step Description
 
 1.The Manager tools selects the history button.
+
 2.The system display the history of the requestes tools.
 
 3.2.3 Use case: Select tool
