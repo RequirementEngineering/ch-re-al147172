@@ -72,9 +72,9 @@ The inventory software is a common application used in all large and small compa
 and items to have a record of loss and malfunction tools or material. It is considered a priority in the modern world, as well as the
 use of database to deploy information and be able to add, edit and remove data.
 
-The representation of the processes involved in the department  is explained in the diagram below.
+ A graphic representation of the processes involved in the department for a better understanding is explained in the diagram below.
 
-[Work Tools Diagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/Work%20Tools%20Diagram.png)
+![Work Tools Diagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/Work%20Tools%20Diagram.png)
 
 2.2 Site adaptation requirements
 
