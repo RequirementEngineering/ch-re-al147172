@@ -345,9 +345,7 @@ Step-By-Step Description
 Use case: Remove a tool
 
 1.The supervisor tools selects to Remove a tool.
-
 2.The system deploys a confirm screen.
-
 3.The system save changes.
 
 3.3.3 Use case: Edit a tool name or amount
@@ -359,7 +357,6 @@ The supervisor tools edits name and quantity of selected items.
 Step-By-Step Description
 
 1.The Supervisor selects to Edit a tool.
-
 2.The system deploys a screen showing two different options, edit tool name, edit quantity (the last action also works by a single up
 button (green arrow) to increase number or down button to decrease quantity (red arrow). 
 
