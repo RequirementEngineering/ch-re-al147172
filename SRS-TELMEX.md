@@ -345,9 +345,9 @@ Step-By-Step Description
 
 Use case: Remove a tool
 
-1.The Manager tools selects to Remove a tool.
-2.The system deploys a confirm screen.
-3. The system save changes.
+1.The Manager tools selects to Remove a tool. 
+2.The system deploys a confirm screen. 
+3. The system save changes. 
 
 3.3.3 Use case: Edit a tool name or amount
 
