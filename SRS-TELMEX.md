@@ -5,7 +5,7 @@
                               
                         
    <p align="center">
-  <img width="600" height="200" src="https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png">
+  <img width="500" height="400" src="https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png">
 </p>
 
                                                                                        Work Tools Management
