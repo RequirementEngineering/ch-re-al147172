@@ -322,6 +322,7 @@ The supervisor views histroy of requested tool to check date and other tools.
 Step-By-Step Description
 
 1. The Manager tools selects the history button.
+
 2. The system display the history of the requestes tools.
 
 3.3.1 Use case: Select tool
@@ -346,7 +347,9 @@ Step-By-Step Description
 Use case: Remove a tool
 
 1.The Manager tools selects to Remove a tool. 
+
 2.The system deploys a confirm screen. 
+
 3. The system save changes. 
 
 3.3.3 Use case: Edit a tool name or amount
