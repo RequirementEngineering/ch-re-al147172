@@ -1,12 +1,18 @@
-                                Universidad autónoma de ciudad Juárez
+                                          Universidad autónoma de ciudad Juárez
                                 
-                         Departamento de ingeniería eléctrica y computación
+                                   Departamento de ingeniería eléctrica y computación
+                         
+                              
                         
   ![uacjlogo.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/uacjlogo.png)
 
+                                                                                                               Work Tools Management
+                                                                                                 
+                                                                                                 Software requirements Specification
 
-
-
+                                                                                                                        Raul Lucero
+                                                                                                                        
+                                                                                                                        May 16th 2019
 
 
 1.0 Introduction
@@ -193,7 +199,7 @@ supported by use case diagrams
 
 ![MANAGER.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER.png)
 
-3.2 Use case: Add a new tool
+3.2.1 Use case: Add a new tool
 
 Description
 
@@ -207,7 +213,7 @@ The tool manager must log in to add new tools to database.
 3.	A confirm selected option is deployed.
 4.	Changes are saved in the database.
 
-3.6 Use case: History
+3.2.2 Use case: History
 
 Description
 
@@ -218,7 +224,7 @@ Step-By-Step Description
 1.The Manager tools selects the history button.
 2.The system display the history of the requestes tools.
 
-3.3 Use case: Select tool
+3.2.3 Use case: Select tool
 
 Description
 
@@ -232,7 +238,7 @@ Step-By-Step Description
 3. Number of available tools decrease automatically
 4. Changes are saved in the database automatically.
 
-3.4 Use case: Remove tool 
+3.2.4 Use case: Remove tool 
 
 Description
 
@@ -244,7 +250,7 @@ Step-By-Step Description
 2.The system deploys a confirm screen.
 3. The system save changes.
 
-3.5 Use case: Edit a tool name or amount
+3.2.5 Use case: Edit a tool name or amount
 
 Description
 
@@ -256,7 +262,7 @@ Step-By-Step Description
 2.The system deploys a screen showing two different options, edit tool name, edit quantity (the last action also works by a single up 
 button (green arrow) to increase number or down button to decrease quantity (red arrow). 
 
-3.6 Use case: Search 
+3.2.6 Use case: Search 
 
 Description
 
@@ -267,7 +273,7 @@ Step-By-Step Description
 1.The Manager tools selects the bar to type the tool´s name or ID number.
 2.The system deploys match results.
 
-3.7 Use case: Log in
+3.2.7 Use case: Log in
 
 Description
 
@@ -279,11 +285,11 @@ Step-By-Step Description
 2.The tool manager use his user name and password to access to the system.
 3. System interface is deployed.
 
-3.8 Supervisor use cases
+3.2.8 Supervisor use cases
 
 ![SUPERVISOR.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/SUPERVISOR.png)
 
-3.9 Use case: Add a new tool
+3.2.9 Use case: Add a new tool
 
 Description
 
@@ -296,7 +302,7 @@ Step-By-Step Description
 7.	A confirm selected option is deployed.
 8.	Changes are saved in the database.
 
-3.6 Use case: History
+3.3 Use case: History
 
 Description
 
@@ -307,7 +313,7 @@ Step-By-Step Description
 1.The Manager tools selects the history button.
 2.The system display the history of the requestes tools.
 
-4.0 Use case: Select tool
+3.3.1 Use case: Select tool
 
 Description
 
@@ -318,7 +324,7 @@ Step-By-Step Description
 3. Number of available tools decrease automatically.
 4. Changes are saved in the database.
 
-4.1 Use case: Remove tool 
+3.3.2 Use case: Remove tool 
 
 Description
 
@@ -331,7 +337,7 @@ Use case: Remove a tool
 2.The system deploys a confirm screen.
 3.The system save changes.
 
-4.2 Use case: Edit a tool name or amount
+3.3.3 Use case: Edit a tool name or amount
 
 Description
 
@@ -343,7 +349,7 @@ Step-By-Step Description
 2.The system deploys a screen showing two different options, edit tool name, edit quantity (the last action also works by a single up
 button (green arrow) to increase number or down button to decrease quantity (red arrow). 
 
-4.3 Use case: Provide ID
+3.3.4 Use case: Provide ID
 
 Description
 
@@ -356,14 +362,14 @@ Step-By-Step Description
 3.Manager type ID in the window which appears.
 4. The system register the order.
 
-5.0 Security
+4.0 Security
 
 In order to avoid access to unauthorized people to the system. It is recommended to use an account with privileges using a password for
 the machine and not only trust in the software application log in.
 
 A sotftware application log in must be incorporated for major security using a dedicated account for itself.
 
-Security features
+4.1 Security features
 
 (1) The system will be locked down for 10 minutes if more than 3 attempts to access has been reached.
 
@@ -374,7 +380,7 @@ his account.
 confirm this action, to avoid accidental loss of memory.
 
 
-5.1 Recovery information
+4.2 Recovery information
 
 A backup for the system is recommended too for loss information risk by using a USB and only the supervisor able to have it and use it
 in case of hardware or software damage.
@@ -384,21 +390,21 @@ Another feautre to avoid accidental loss of memory is to undone actions using co
 NOTE: A superior user account should be created in case of any difficulties with the tool manager account, in this case the supervisor
 account.
 
- 6.0 Performance requirements
+5.0 Performance requirements
  
 * The system is created to allow two or more administrator account to manage the database at a time.
 * The system allows number and character data.
 * The database should have enough capacity to save all work tools data.
 * The operative system should support Java environment for software implementation.
 
-Render aspects
+5.1 Render aspects
 
 * The results display of searching an item should not last more than 1 second.
 * The log in function should not last more than 5 seconds.
 * The database should have at least 1 TB of capacity. (for a wide margin)
 * The database should have capacity for more than 500 hundred items information and other.
 
-7.0 Logical database
+6.0 Logical database
 
 *The logical structure information should be store in the Telmex cellar database server.
 *System must be able to function 24/7, with constant frequency of use.
@@ -406,7 +412,7 @@ Render aspects
 
 ![classdiagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/classdiagram.png)
 
-8.0 Design constraints
+5.1 Design constraints
 
 (1) Only one desktop computer is available
 
@@ -418,7 +424,7 @@ Render aspects
 
 (5) The tool manager has minimum knowledge of informatic. (An intuitive interface is imperative in order to avoid capacitation costs).
 
-9.0 Software System Attributes
+5.2 Software System Attributes
 
 Tool Data Entity
 
@@ -436,7 +442,7 @@ Technical Data Entity
 
 ![technicalentity](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/technicalentity.png)
 
-10.0 Maintainability
+6.0 Maintainability
 
 A technical support must be available to contact with in case of problems.
 
@@ -446,7 +452,7 @@ The software needs update information to find and correct errors.
 
 In case of misuse which can cause loss of information technical support will be needed.
 
-11.0 Portability
+6.1 Portability
 
 The software is meant to be build for the specifications stated above in the document.
 
@@ -458,9 +464,9 @@ enviroment.
 
 Some key factors to support portability is the OS (windows 10) and Java Environment updated.
 
-12.0 Appendixes
+7. Appendixes
 
-Requirements elicitation interview
+7.1 Requirements elicitation interview
 
 The following interview expose the needs of the customer to stablish the principal features of the software system.
 
@@ -468,7 +474,7 @@ The tools manager Emilio Barraza and supervisor answered the list of question be
 
 1.- Q: How many tools are you managing?
 
-A: More than 500 hundred different tools or material.
+A: More than 500 hundred different tools and material.
 
 2. Q: Do you need to add, edit and delete information about the tool state and availability?
 
@@ -496,8 +502,23 @@ We just need to manage the availability of the tools to ease our work using a si
 
 A: No, it is not necessary.
  
+8.  Q: Would you like to have a history of the requested tools?
 
+A: Yes, we need that for control and security.
+ 
+9.  Q: The person who will operate the software application has this kind of knowledge?
 
+A: No, thats why we need an intuitive interface, very simple to minimize or avoid training.
+
+10. Q: How often will the system be used?
+
+A: Very often, every day
+
+11. Q: How many people do you wish to be able to add new tools to the database?
+
+A: Just me (the supervisor)
+
+ 
 
 
 
