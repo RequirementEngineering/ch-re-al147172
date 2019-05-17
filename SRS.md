@@ -265,7 +265,7 @@ supported by use case diagrams
 
 3.2 Tool manager use cases
 
-![MANAGER.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER.png)
+[MANAGER1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER1.png)
 
 3.2.1 Use case: Add a new tool
 
