@@ -79,20 +79,21 @@
 
 
 
+
 1. # **Introduction**
 
 Telmex (Telefonos de Mexico) it is a large company in the business of communications in Mexico.
 A TELMEX plant at Ciudad Juarez lack of tools inventory, instead of using software to automatize processes, they face several problems
 and difficulties to control the management of every work tool that is being used due to traditional or obsolete methods as using paper.
 
-1.1 ## **Purpose**
+1.1  **Purpose**
 
 The purpose of this document is to give a detailed description of the features, requirements and what the system should do and the way
 it operates.
 
 The document is meant to be used by the stakeholders of the project for the development processes and other stages.
 
-1.2 ### **Scope**
+1.2  **Scope**
   
 This software will be a work tools management for Telmex company. It will solve manual and paper doing processes problems just as
 slownessprocedures and confusion troubles that causes equipment loses by using software automatization, which allow the tool manager to
