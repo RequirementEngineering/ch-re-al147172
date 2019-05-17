@@ -20,11 +20,11 @@
 
 Table of Contents
 
-#Introduction......................................1.0
+<--Introduction......................................1.0
 
-##Purpose........................................1.1
+   Purpose........................................1.1
    
-###Scope..........................................1.2
+   Scope..........................................1.2
    
    Glossary.......................................1.3
    
@@ -265,7 +265,7 @@ supported by use case diagrams
 
 3.2 Tool manager use cases
 
-[MANAGER1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER1.png)
+![MANAGER1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER1.png)
 
 3.2.1 Use case: Add a new tool
 
