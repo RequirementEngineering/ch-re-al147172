@@ -20,7 +20,7 @@
 
 **Table of Contents**
 
-Introduction......................................1.0
+**Introduction......................................1.0
 
    Purpose........................................1.1
    
@@ -32,7 +32,7 @@ Introduction......................................1.0
    
    Overview.......................................1.5
    
-Overall Description...............................2.0
+**Overall Description...............................2.0
 
    Product perspective............................2.1
    
@@ -48,11 +48,11 @@ Overall Description...............................2.0
    
    Assumptions and depdnencies....................2.7
    
-Specific requirements.............................3.0
+**Specific requirements.............................3.0
 
    Functional requirements specification..........3.1
    
-Security..........................................4.0
+**Security..........................................4.0
 
    Security feautres..............................4.1
    
@@ -62,7 +62,7 @@ Security..........................................4.0
    
    Render aspects.................................5.1
    
-Logical database..................................6.0
+**Logical database..................................6.0
 
    Design constraints.............................6.1
    
@@ -72,25 +72,25 @@ Logical database..................................6.0
    
    Portability....................................6.4
    
-Appendixes........................................7.0
+**Appendixes........................................7.0
 
 
 
 
-1. Introduction
+1. **Introduction
 
 Telmex (Telefonos de Mexico) it is a large company in the business of communications in Mexico.
 A TELMEX plant at Ciudad Juarez lack of tools inventory, instead of using software to automatize processes, they face several problems
 and difficulties to control the management of every work tool that is being used due to traditional or obsolete methods as using paper.
 
-1.1 Purpose
+1.1 **Purpose**
 
 The purpose of this document is to give a detailed description of the features, requirements and what the system should do and the way
 it operates.
 
 The document is meant to be used by the stakeholders of the project for the development processes and other stages.
 
-1.2 Scope
+1.2 **Scope
   
 This software will be a work tools management for Telmex company. It will solve manual and paper doing processes problems just as
 slownessprocedures and confusion troubles that causes equipment loses by using software automatization, which allow the tool manager to
@@ -105,11 +105,11 @@ operate the software application to ease the tools to the technical and interact
 or ask for more if it is needed. Also, supervisor of management tools department will check all the processes involved to avoid and
 solve any possible anomaly.
 
-1.3 Glossary
+1.3 **Glossary
 
 ![glossary1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/glossary1.png)
 
-1.4 References
+1.4 **References
 
 Davis, A., & Overmeyer, S. (1993). Identifying and measuring quality in a software requirements specification. Baltimore: Proceedings
 First International Software Metrics Symposium.
@@ -118,7 +118,7 @@ Dobing, B. (2006). "How UML is used". COMMUNICATIONS OF THE ACM.
 
 Mariscal, J. (2005). New trends in the Latin American telecommunications market: Telefonica & Telmex. ELSEVIER.
 
-1.5 Overview
+1.5 **Overview
 
 The next content gives information of the functionality of the system, the specific requirements, such as functional and nonfunctional
 using high-level language to give place to a more technical terminology in the chapter below.
@@ -129,7 +129,7 @@ requirements.
 In general, describes the whole project and its characteristics using different languages in order to communicate with different 
 readers as we all any stakeholder or part of the deveploment team, and different purposes too.
 
-2. Overall description
+2. **Overall description
 
 The Management Tool should be an intuitive interface compound by interface, database server, in the software aspects.
 The human aspects play the most important role, as actors, the technical request for tools that is needed and the manager tool operates
@@ -150,7 +150,7 @@ Business Process Diagram
 ![BPMNdiagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/BPMNdiagram.png)
 
 
-2.1 Product perspective 
+2.1 **Product perspective 
 
 The product is expected to be a single and independent entity, not related with any other component or large system.
 
@@ -162,7 +162,7 @@ use of database to display information and be able to add, edit and remove data.
 
 ![Work Tools Diagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/Work%20Tools%20Diagram.png)
 
-2.2 Site adaptation requirements
+2.2 **Site adaptation requirements
 
 * A database server should exist already in the company to implement the created tables.
 
@@ -173,7 +173,7 @@ server in a reasonable amount of time without any difficulties.
 
 * Java environment should be installed on computer to run the software successfully.
 
- 2.3 Product functions
+ 2.3 **Product functions
  
 The software would allow to add, edit and remove items from the cellar in real time to have control over the database.
 Also, the manager will have control increase or decrease the number of available tools by selecting two different colored arrows for up
@@ -189,7 +189,7 @@ buttons.
 
 Some changes such as delete items can be undone to avoid accidental loss of memory.
 
-2.4 Interfaces
+2.4 **Interfaces
 
 The interface is a simple screen created on JAVA graphic environment making use of buttons to ease the application use.
 
@@ -225,11 +225,11 @@ structure of the interface.
 In summary the results of apply this model to common people with no  previous technical of software knowledge this software application
 we need to assume is a very intuitive interface and no capacitation will be need it to make use of it.
 
-2.5 User characteristics
+2.5 **User characteristics
 
 ![userchar.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/userchar.png)
 
-2.6 Constraints
+2.6 **Constraints
 
 (1) Hardware
 
@@ -243,7 +243,7 @@ we need to assume is a very intuitive interface and no capacitation will be need
 
 The company’s policies do not allow other hardware rather than the available located on the cellar.
 
-2.7 Assumptions and dependecies
+2.7 **Assumptions and dependecies
     
 The inventory tool software assumes windows 10 as the operative system selected to work with.
 
@@ -253,17 +253,17 @@ A desktop or laptop supporting windows 10 is expected to be available for the so
 
 A person in charge of operating the software is imperative. (Tools manager).
 
-3. Specific requirements
+3. **Specific requirements
 
 This chapter contains all the information about requirements specification in detailed, such as functional and nonfunctional
 requirements to help development team for the software design by using diagrams, and functions description of all the components.
 
-3.1 Functional requirements Specifications
+3.1 **Functional requirements Specifications
 
 The following section gives a description about each functionality of the software and the interaction of the actors with the system
 supported by use case diagrams
 
-3.2 Tool manager use cases
+3.2 **Tool manager use cases
 
 ![MANAGER1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/MANAGER1.png)
 
@@ -436,14 +436,14 @@ Step-By-Step Description
 3.Manager type ID in the window which appears.
 4. The system register the order.
 
-4. Security
+4. **Security
 
 In order to avoid access to unauthorized people to the system. It is recommended to use an account with privileges using a password for
 the machine and not only trust in the software application log in.
 
 A sotftware application log in must be incorporated for major security using a dedicated account for itself.
 
-4.1 Security features
+4.1 **Security features
 
 (1) The system will be locked down for 10 minutes if more than 3 attempts to access has been reached.
 
@@ -454,7 +454,7 @@ his account.
 confirm this action, to avoid accidental loss of memory.
 
 
-4.2 Recovery information
+4.2 **Recovery information
 
 A backup for the system is recommended too for loss information risk by using a USB and only the supervisor able to have it and use it
 in case of hardware or software damage.
@@ -464,21 +464,21 @@ Another feautre to avoid accidental loss of memory is to undone actions using co
 NOTE: A superior user account should be created in case of any difficulties with the tool manager account, in this case the supervisor
 account.
 
-5. Performance requirements
+5. **Performance requirements
  
 * The system is created to allow two or more administrator account to manage the database at a time.
 * The system allows number and character data.
 * The database should have enough capacity to save all work tools data.
 * The operative system should support Java environment for software implementation.
 
-5.1 Render aspects
+5.1 **Render aspects
 
 * The results display of searching an item should not last more than 1 second.
 * The log in function should not last more than 5 seconds.
 * The database should have at least 1 TB of capacity. (for a wide margin)
 * The database should have capacity for more than 500 hundred items information and other.
 
-6. Logical database
+6. **Logical database
 
 *The logical structure information should be store in the Telmex cellar database server.
 *System must be able to function 24/7, with constant frequency of use.
@@ -486,7 +486,7 @@ account.
 
 ![classdiagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/classdiagram.png)
 
-6.1 Design constraints
+6.1 **Design constraints
 
 (1) Only one desktop computer is available
 
@@ -498,7 +498,7 @@ account.
 
 (5) The tool manager has minimum knowledge of informatic. (An intuitive interface is imperative in order to avoid capacitation costs).
 
-6.2 Software System Attributes
+6.2 **Software System Attributes
 
 Tool Data Entity
 
@@ -516,7 +516,7 @@ Technical Data Entity
 
 ![technicalentity](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/technicalentity.png)
 
-6.3 Maintainability
+6.3 **Maintainability
 
 A technical support must be available to contact with in case of problems.
 
@@ -526,7 +526,7 @@ The software needs update information to find and correct errors.
 
 In case of misuse which can cause loss of information technical support will be needed.
 
-6.4 Portability
+6.4 **Portability
 
 The software is meant to be build for the specifications stated above in the document.
 
@@ -537,9 +537,9 @@ Portability is not a goal for the software development but the specific cases ne
 enviroment.
 Some key factors to support portability is the OS (windows 10) and Java Environment updated.
 
-7. Appendixes
+7. **Appendixes
 
-7.1 Requirements elicitation interview
+7.1 **Requirements elicitation interview
 
 The following interview expose the needs of the customer to stablish the principal features of the software system.
 
