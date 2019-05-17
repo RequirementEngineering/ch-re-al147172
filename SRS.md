@@ -17,7 +17,41 @@
                                                                                                 May 16th 2019
 
 
-1.0 Introduction
+
+Table of Contents
+
+Introduction......................................1.0
+   Purpose........................................1.1
+   Scope..........................................1.2
+   Glossary.......................................1.3
+   References.....................................1.4
+   Overview.......................................1.5
+Overall Description...............................2.0
+   Product perspective............................2.1
+   Site adaptation requirements...................2.2
+   Product Functions..............................2.3
+   Interfaces.....................................2.4
+   User Characteristics...........................2.5
+   Constraints....................................2.6
+   Assumptions and depdnencies....................2.7
+Specific requirements.............................3.0
+   Functional requirements specification..........3.1
+Security..........................................4.0
+   Security feautres..............................4.1
+   Recovery informationn..........................4.2
+   Performance requirements.......................5.0
+   Render aspects.................................5.1
+Logical database..................................6.0
+   Design constraints.............................6.1
+   Software system attributes.....................6.2
+   Maintainability................................6.3
+   Portability....................................6.4
+Appendixes........................................7.0
+
+
+
+
+1. Introduction
 
 Telmex (Telefonos de Mexico) it is a large company in the business of communications in Mexico.
 A TELMEX plant at Ciudad Juarez lack of tools inventory, instead of using software to automatize processes, they face several problems
@@ -69,7 +103,7 @@ requirements.
 In general, describes the whole project and its characteristics using different languages in order to communicate with different 
 readers as we all any stakeholder or part of the deveploment team, and different purposes too.
 
-2.0 Overall description
+2. Overall description
 
 The Management Tool should be an intuitive interface compound by interface, database server, in the software aspects.
 The human aspects play the most important role, as actors, the technical request for tools that is needed and the manager tool operates
@@ -128,7 +162,6 @@ The manager tool could search any tool by typing its identification number or to
 buttons.
 
 Some changes such as delete items can be undone to avoid accidental loss of memory.
-
 
 2.4 Interfaces
 
@@ -194,7 +227,7 @@ A desktop or laptop supporting windows 10 is expected to be available for the so
 
 A person in charge of operating the software is imperative. (Tools manager).
 
-3.0 Specific requirements
+3. Specific requirements
 
 This chapter contains all the information about requirements specification in detailed, such as functional and nonfunctional
 requirements to help development team for the software design by using diagrams, and functions description of all the components.
@@ -377,7 +410,7 @@ Step-By-Step Description
 3.Manager type ID in the window which appears.
 4. The system register the order.
 
-4.0 Security
+4. Security
 
 In order to avoid access to unauthorized people to the system. It is recommended to use an account with privileges using a password for
 the machine and not only trust in the software application log in.
@@ -400,12 +433,12 @@ confirm this action, to avoid accidental loss of memory.
 A backup for the system is recommended too for loss information risk by using a USB and only the supervisor able to have it and use it
 in case of hardware or software damage.
 
-Another feautre to avoid accidental loss of memory is to undone actions using command ctrl+Z
+Another feautre to avoid accidental loss of memory is to undone actions using command ctrl+Z.
 
 NOTE: A superior user account should be created in case of any difficulties with the tool manager account, in this case the supervisor
 account.
 
-5.0 Performance requirements
+5. Performance requirements
  
 * The system is created to allow two or more administrator account to manage the database at a time.
 * The system allows number and character data.
@@ -419,7 +452,7 @@ account.
 * The database should have at least 1 TB of capacity. (for a wide margin)
 * The database should have capacity for more than 500 hundred items information and other.
 
-6.0 Logical database
+6. Logical database
 
 *The logical structure information should be store in the Telmex cellar database server.
 *System must be able to function 24/7, with constant frequency of use.
@@ -427,7 +460,7 @@ account.
 
 ![classdiagram.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/classdiagram.png)
 
-5.1 Design constraints
+6.1 Design constraints
 
 (1) Only one desktop computer is available
 
@@ -439,7 +472,7 @@ account.
 
 (5) The tool manager has minimum knowledge of informatic. (An intuitive interface is imperative in order to avoid capacitation costs).
 
-5.2 Software System Attributes
+6.2 Software System Attributes
 
 Tool Data Entity
 
@@ -457,7 +490,7 @@ Technical Data Entity
 
 ![technicalentity](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/technicalentity.png)
 
-6.0 Maintainability
+6.3 Maintainability
 
 A technical support must be available to contact with in case of problems.
 
@@ -467,7 +500,7 @@ The software needs update information to find and correct errors.
 
 In case of misuse which can cause loss of information technical support will be needed.
 
-6.1 Portability
+6.4 Portability
 
 The software is meant to be build for the specifications stated above in the document.
 
@@ -476,7 +509,6 @@ devolpment considerate only the factors and circunstances of the specific case o
 
 Portability is not a goal for the software development but the specific cases needs to be analyzed if its mean to use in a different
 enviroment.
-
 Some key factors to support portability is the OS (windows 10) and Java Environment updated.
 
 7. Appendixes
