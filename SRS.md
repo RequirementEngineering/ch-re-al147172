@@ -20,59 +20,61 @@
 
 # **Table of Contents**
 
-## **Introduction**......................................1.0
+  ## **Introduction**........................................1.0
 
-   Purpose........................................1.1
+  ### Purpose................................................1.1
    
-   Scope..........................................1.2
+  ### Scope..................................................1.2
    
-   Glossary.......................................1.3
+  ### Glossary...............................................1.3
    
-   References.....................................1.4
+  ### References.............................................1.4
    
-   Overview.......................................1.5
+  ### Overview...............................................1.5
    
-**Overall Description**...............................2.0
+## **Overall Description**...................................2.0
 
-   Product perspective............................2.1
+  ### Product perspective....................................2.1
    
-   Site adaptation requirements...................2.2
+  ### Site adaptation requirements...........................2.2
    
-   Product Functions..............................2.3
+  ### Product Functions......................................2.3
    
-   Interfaces.....................................2.4
+  ### Interfaces..............................................2.4
    
-   User Characteristics...........................2.5
+  ### User Characteristics....................................2.5
    
-   Constraints....................................2.6
+  ### Constraints.............................................2.6
    
-   Assumptions and depdnencies....................2.7
+  ### Assumptions and depdnencies.............................2.7
    
-**Specific requirements**.............................3.0
+# **Specific requirements**...................................3.0
 
-   Functional requirements specification..........3.1
+### Functional requirements specification.....................3.1
    
-**Security**..........................................4.0
+# **Security**................................................4.0
 
-   Security feautres..............................4.1
+  ### Security feautres.......................................4.1
    
-   Recovery informationn..........................4.2
+  ### Recovery informationn...................................4.2
+  
+# Not Functional requirements.................................5.0
    
-   Performance requirements.......................5.0
+  ### Performance requirements................................5.1
    
-   Render aspects.................................5.1
+  ### Render aspects..........................................5.2
    
-**Logical database**..................................6.0
+# **Logical database**........................................6.0
 
-   Design constraints.............................6.1
+  ### Design constraints......................................6.1
    
-   Software system attributes.....................6.2
+  ### Software system attributes..............................6.2
    
-   Maintainability................................6.3
+  ### Maintainability.........................................6.3
    
-   Portability....................................6.4
+  ### Portability.............................................6.4
    
-**Appendixes**........................................7.0
+# **Appendixes**..............................................7.0
 
 
 
@@ -464,14 +466,19 @@ Another feautre to avoid accidental loss of memory is to undone actions using co
 NOTE: A superior user account should be created in case of any difficulties with the tool manager account, in this case the supervisor
 account.
 
-5. **Performance requirements**
+5. **Not functional requirements**
+
+The chapter belows explained in detailed the process of the software application using techinical language such as diagrams and logical 
+databse in order to provide importante information for the development team.
+
+5.1 **Performance requirements**
  
 * The system is created to allow two or more administrator account to manage the database at a time.
 * The system allows number and character data.
 * The database should have enough capacity to save all work tools data.
 * The operative system should support Java environment for software implementation.
 
-5.1 **Render aspects**
+5.2 **Render aspects**
 
 * The results display of searching an item should not last more than 1 second.
 * The log in function should not last more than 5 seconds.
