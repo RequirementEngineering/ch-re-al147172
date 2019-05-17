@@ -20,11 +20,11 @@
 
 Table of Contents
 
-Introduction......................................1.0
+#Introduction......................................1.0
 
-   Purpose........................................1.1
+##Purpose........................................1.1
    
-   Scope..........................................1.2
+###Scope..........................................1.2
    
    Glossary.......................................1.3
    
@@ -357,7 +357,7 @@ Step-By-Step Description
 
 3.2.8 Supervisor use cases
 
-![SUPERVISOR.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/SUPERVISOR.png)
+![SUPERVISOR1.png](https://github.com/RequirementEngineering/ch-re-al147172/blob/master/SUPERVISOR1.png)
 
 3.2.9 Use case: Add a new tool
 
